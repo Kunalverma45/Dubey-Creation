@@ -1,61 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <title>Dubey Creation</title>
-    <link rel="icon" href="./logoDc.png" type="image/x-icon" />
-    <style>
-      /* Body Background Gradient */
-      body {
-        margin: 0;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: radial-gradient(circle at 50% 50%, #3a3a3a, #633a21);
-        overflow: hidden;
-        font-family: sans-serif;
-        perspective: 1000px;
-      }
 
-      /* 3D Style Effect */
-      .container {
-        transform-style: preserve-3d;
-        animation: tilt 8s infinite alternate ease-in-out;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+  <title>Dubey Creation</title>
+  <link rel="icon" href="./logoDc.png" type="image/x-icon" />
 
-      @keyframes tilt {
-        0% {
-          transform: rotateX(10deg) rotateY(10deg);
-        }
-        100% {
-          transform: rotateX(-10deg) rotateY(-10deg);
-        }
-      }
+</head>
 
-      /* React Logo Styling */
-      .logo {
-        width: 150px;
-        animation: spin 10s linear infinite;
-        filter: drop-shadow(0 0 20px #495558);
-      }
-
-      @keyframes spin {
-        from {
-          transform: rotateY(0deg);
-        }
-        to {
-          transform: rotateY(360deg);
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <img class="logo" src="logoDc.png" alt="React Logo" />
-    </div>
-    <div id="root"></div>
-    <script type="module" src="../src/index.js"></script>
-  </body>
+<body>
+  <div id="root"></div>
+</body>
 </html>
