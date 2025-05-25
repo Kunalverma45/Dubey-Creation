@@ -244,3 +244,9 @@ p {
         margin: 0 12px 12px 0;
     }
 }
+
+.navbar {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
