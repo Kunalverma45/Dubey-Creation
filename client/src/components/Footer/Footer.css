@@ -1,0 +1,70 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 90%;
+    padding: 3% 5%;
+    background: linear-gradient(145deg, #931a93, #ffe88b);
+    opacity: 0.9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.outerContainer {
+    display: flex;
+}
+
+.col {
+    width: 20%;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    padding: 20px;
+    border-right: 2px solid rgba(132, 130, 130, 0.662);
+    
+    h3{
+        color: rgb(39, 37, 37);
+    }
+}
+
+.col1 {
+    width: 40%;
+    padding: 20px;
+    border-right: 2px solid rgba(132, 130, 130, 0.662);
+}
+
+#col4 {
+    border-right: none;
+}
+
+.contactCont {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.logos {
+    display: flex;
+    justify-content:space-between;
+    width: 120px;
+}
+
+.icon {
+    padding: 2px;
+}
+
+#collections p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#useFulLinks a {
+    color: black;
+}
+
+.innerCont div{
+    font-size: 15px;
+    color: rgb(26, 25, 25);
+}
