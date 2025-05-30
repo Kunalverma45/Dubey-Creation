@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(-70deg, #1c0033, #000000);
+    height: 100vh;
+    font-family: 'Great Vibes', cursive;
+}
+.box {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    background: rgba(255, 255, 255, -0.01);
+    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px);
+}
+.mdl {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* This will ensure it's behind all content */
+}
+
+.circles {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    /* Behind everything */
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #da70d6, #8a2be2);
+    box-shadow: 0 0 20px #bf40bf, 0 0 40px #9d00ff;
+    opacity: 0.3;
+    animation: move 5s infinite ease-in-out, rotate 10s infinite linear, pulse 2s infinite ease-in-out;
+}
+
+/* Unique positions and delays */
+.circle-1 {
+    width: 100px;
+    height: 100px;
+    top: 5%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.circle-2 {
+    width: 70px;
+    height: 70px;
+    top: 15%;
+    left: 80%;
+    animation-delay: 0.3s;
+}
+
+.circle-3 {
+    width: 90px;
+    height: 90px;
+    top: 40%;
+    left: 20%;
+    animation-delay: 0.7s;
+}
+
+.circle-4 {
+    width: 60px;
+    height: 60px;
+    top: 70%;
+    left: 60%;
+    animation-delay: 1.2s;
+}
+
+.circle-5 {
+    width: 110px;
+    height: 110px;
+    top: 20%;
+    left: 40%;
+    animation-delay: 1.5s;
+}
+
+.circle-6 {
+    width: 50px;
+    height: 50px;
+    bottom: 10%;
+    right: 5%;
+    animation-delay: 1.9s;
+}
+
+.circle-7 {
+    width: 120px;
+    height: 120px;
+    bottom: 30%;
+    left: 10%;
+    animation-delay: 2.3s;
+}
+
+.circle-8 {
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    right: 10%;
+    animation-delay: 2.7s;
+}
+
+.circle-9 {
+    width: 60px;
+    height: 60px;
+    bottom: 5%;
+    left: 50%;
+    animation-delay: 3s;
+}
+
+.circle-10 {
+    width: 95px;
+    height: 95px;
+    top: 10%;
+    right: 30%;
+    animation-delay: 3.4s;
+}
+
+.circle-11 {
+    width: 70px;
+    height: 70px;
+    bottom: 40%;
+    right: 40%;
+    animation-delay: 3.8s;
+}
+
+.circle-12 {
+    width: 85px;
+    height: 85px;
+    top: 35%;
+    left: 55%;
+    animation-delay: 4.1s;
+}
+
+/* Animations */
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(40px, -30px);
+    }
+
+    100% {
+        transform: translate(-20px, 25px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.15);
+    }
+}
+
+.flex-section {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.flex-box {
+    flex: 1;
+    background-color: transparent;
+    z-index: 1;
+}
