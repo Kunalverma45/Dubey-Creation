@@ -8,7 +8,8 @@
 }
 
 nav {
-    position: fixed;
+    position: relative;
+    top: -1px;
     z-index: 99;
     width: 100%;
     background: linear-gradient(145deg, #931a93, #ffe88b);

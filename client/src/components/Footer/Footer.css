@@ -1,14 +1,14 @@
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     z-index: 10;
-    width: 90%;
+    width: 100%;
     padding: 3% 5%;
-    background: linear-gradient(145deg, #931a93, #ffe88b);
+    background: linear-gradient(145deg, #ffe88b, #931a93);
     opacity: 0.9;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    padding: 3% 5%;
 }
 
 .outerContainer {

@@ -1,0 +1,57 @@
+/* Fullscreen background with gradient and center alignment */
+.extra-page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Glassmorphism styled card */
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Heading */
+.glass-card h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.glass-card p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* CTA Button */
+.cta-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #ff4757;
+    transform: scale(1.05);
+}
