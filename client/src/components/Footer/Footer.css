@@ -5,10 +5,12 @@ footer {
     z-index: 10;
     width: 100%;
     padding: 3% 5%;
-    background: linear-gradient(145deg, #ffe88b, #931a93);
+    /* background: linear-gradient(145deg, #ffe88b, #931a93); */
     opacity: 0.9;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 3% 5%;
+    color: rgb(255, 255, 255);
+    height: 249px;
 }
 
 .outerContainer {
@@ -20,18 +22,20 @@ footer {
     flex-wrap: wrap;
     overflow-x: hidden;
     padding: 20px;
-    border-right: 2px solid rgba(132, 130, 130, 0.662);
-    
+    border-right: 2px solid rgba(90, 90, 90, 0.662);
+    height: 169px;
     h3{
-        color: rgb(39, 37, 37);
+        color: rgb(255, 255, 255);
     }
 }
 
 .col1 {
     width: 40%;
     padding: 20px;
-    border-right: 2px solid rgba(132, 130, 130, 0.662);
+    border-right: 2px solid rgba(90, 90, 90, 0.662);
+    height: 169px;
 }
+    
 
 #col4 {
     border-right: none;
@@ -61,10 +65,10 @@ a {
 }
 
 #useFulLinks a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .innerCont div{
     font-size: 15px;
-    color: rgb(26, 25, 25);
+    color: rgb(255, 255, 255);
 }

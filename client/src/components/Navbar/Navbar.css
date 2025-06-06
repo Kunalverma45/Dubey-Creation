@@ -12,7 +12,7 @@ nav {
     top: -1px;
     z-index: 99;
     width: 100%;
-    background: linear-gradient(145deg, #931a93, #ffe88b);
+    /* background: linear-gradient(145deg, #931a93, #ffe88b); */
 }
 
 nav .wrapper {
@@ -57,7 +57,7 @@ nav .wrapper {
 }
 
 .nav-links li a {
-    color: #f2f2f2;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -67,8 +67,7 @@ nav .wrapper {
 }
 
 .nav-links li a:hover {
-    background: #3A3B3C;
-}
+    background: linear-gradient(145deg, #a88db891, #ffcc009a);}
 
 .nav-links .mobile-item {
     display: none;
@@ -76,7 +75,7 @@ nav .wrapper {
 
 .nav-links .drop-menu {
     position: absolute;
-    background: #242526;
+    background: #656565;
     width: 180px;
     line-height: 45px;
     top: 85px;

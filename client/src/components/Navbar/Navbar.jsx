@@ -119,7 +119,7 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-              <a href="#">Feedback</a>
+              <a href="#">Log In</a>
             </li>
           </ul>
 
